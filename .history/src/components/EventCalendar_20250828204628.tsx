@@ -42,10 +42,10 @@ const EventCalendar = () => {
             {events.map((event) => (
                 <div key={event.id} className="p-5 rounded-md border-2 border-gray-100 border-t-4 odd:border-t-jojoSky even:border-t-jojoPurple">
                    <div className="flex items-center justify-between">
-                        <h1 className="font-semibold text-gray-600">{event.title}</h1>
-                        <span className="text-sm text-gray-300">{event.time}</span>
+                        <h1 className="font-semibold">{event.title}</h1>
+                        <span className="text-sm text-gray-600">{event.time}</span>
                    </div>
-                        <p className="mt-2 text-gray-400 text-sm">{event.description}</p>
+                        <p className="text-sm">{event.description}</p>
                 </div>
             ))}
         </div>

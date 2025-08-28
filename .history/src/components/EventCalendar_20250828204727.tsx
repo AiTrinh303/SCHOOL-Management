@@ -45,7 +45,7 @@ const EventCalendar = () => {
                         <h1 className="font-semibold text-gray-600">{event.title}</h1>
                         <span className="text-sm text-gray-300">{event.time}</span>
                    </div>
-                        <p className="mt-2 text-gray-400 text-sm">{event.description}</p>
+                        <p className="mt-text-sm">{event.description}</p>
                 </div>
             ))}
         </div>
