@@ -1,0 +1,15 @@
+import Image from "next/image"
+
+const UserCard = ({type}:{type: string}) => {
+  return (
+    <div className='rounded-2xl odd:bg-jojoPurple even:bg-jojoYellow flex-1'>        
+        <div>
+            <span>2024/25</span>
+            <Image src="/more.png" alt="More" width={20} height={20} />
+            {type}
+        </div>
+    </div>
+  )
+}
+
+export default UserCard
