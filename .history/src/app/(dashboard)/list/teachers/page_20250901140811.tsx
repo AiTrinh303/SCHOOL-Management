@@ -1,0 +1,36 @@
+const TeacherListsPage = () => {
+  return (
+    <div className='bg-white p-4 rounded-md flex-1 m-4 mt-0 '>
+      {/* TOP */}
+      <div import Announcements from "@/components/Announcements";
+import BigCalendar from "@/components/BigCalender";
+
+const ParentPage = () => {
+  return (
+    <div className="flex-1 p-4 flex gap-4 flex-col xl:flex-row">
+      {/* LEFT */}
+      <div className="w-full xl:w-2/3">
+        <div className="h-full bg-white p-4 rounded-md">
+          <h1 className="text-xl font-semibold">Schedule (John Doe)</h1>
+          <BigCalendar />
+        </div>
+      </div>
+      {/* RIGHT */}
+      <div className="w-full xl:w-1/3 flex flex-col gap-8">
+        <Announcements />
+      </div>
+    </div>
+  );
+};
+
+export default ParentPage;>
+        <h1>All Teachers</h1>
+        <div>
+
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default TeacherListsPage
