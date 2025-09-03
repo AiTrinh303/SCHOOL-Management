@@ -1,0 +1,27 @@
+const SingleTeacherPage = () => {
+  return (
+    <div className='flex-1 p-4 flex flex-col gap-4 xl:flex-row'>
+        {/* LEFT */}
+        <div className="w-full xl:w-2/3">
+        {/*TOP */}
+        <div className="flex flex-col lg:flex-row gap-4">
+          {/* USER CARD */}
+          <div className="bg-jojoSky py-"></div>
+          {/* SMALL CARD */}
+          <div className=""></div>
+        </div>
+
+        {/* BOTTOM */}
+        <div className="">scheduled</div>
+        
+        </div>
+
+        {/* RIGHT */}
+        <div className="w-full xl:w-1/3">
+          {/* TEACHER INFO */}
+        </div>
+    </div>
+  )
+}
+
+export default SingleTeacherPage
