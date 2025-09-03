@@ -3,7 +3,6 @@ import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
 import { lessonsData, role } from "@/lib/data";
 import Image from "next/image";
-import Link from "next/link";
 
 type Lesson = {
   id: number;
@@ -43,11 +42,7 @@ const LessonListPage = () => {
       <td className="hidden md:table-cell">{item.teacher}</td>
       <td>
         <div className="flex items-center gap-2">
-            <Link href={`list/lessons/${item.id}`}>
-              <button className="w-7 h-7 flex items-center justify-center rounded-full bg-jojoSky">
-                <Image src="/edit.png" alt="" width={16} height={16} />
-              </button>
-            </Link>
+            <Link></Link>
            {role === "admin" && (
                                 <button className="w-7 h-7 flex items-center justify-center rounded-full bg-jojoPurple">
                                   <Image src="/delete.png" alt="" width={16} height={16} />
