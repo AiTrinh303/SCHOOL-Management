@@ -27,10 +27,10 @@ const SingleTeacherPage = () => {
                   data={{
                     id: 1,
                     username: "AiTrinh",
-                    email: "aitrinh@gmail.com",
+                    email: "deanguerrero@gmail.com",
                     password: "password",
-                    firstName: "Ai",
-                    lastName: "Trinh",
+                    firstName: "Dean",
+                    lastName: "Guerrero",
                     phone: "+1 234 567 89",
                     address: "1234 Main St, Anytown, USA",
                     bloodType: "A+",

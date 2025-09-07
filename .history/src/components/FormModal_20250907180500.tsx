@@ -65,7 +65,8 @@ const FormModal =  ({
       forms[table](type, data)
     ) : (
       "Form not found!"
-    );   
+    );
+   
   };
 
   return (

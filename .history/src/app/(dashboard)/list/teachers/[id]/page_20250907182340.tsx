@@ -19,18 +19,17 @@ const SingleTeacherPage = () => {
               <Image src="/profile.jpeg" alt="" width={144} height={144} className="w-36 h-36 rounded-full object-cover"/>
             </div>  
             <div className="w-2/3 flex flex-col justify-between gap-4">
-               <div className="flex items-center gap-4">
-                <h1 className="text-xl font-semibold">Ai Trinh</h1>
-                {role === "admin" && <FormModal
+              <h1 className="text-xl font-semibold">Ai Trinh</h1>
+               {role === "admin" && <FormModal
                   table="teacher"
                   type="update"
                   data={{
                     id: 1,
-                    username: "AiTrinh",
+                    username: "Ai Trinh",
                     email: "aitrinh@gmail.com",
                     password: "password",
-                    firstName: "Ai",
-                    lastName: "Trinh",
+                    firstName: "Dean",
+                    lastName: "Guerrero",
                     phone: "+1 234 567 89",
                     address: "1234 Main St, Anytown, USA",
                     bloodType: "A+",
@@ -39,25 +38,6 @@ const SingleTeacherPage = () => {
                     img: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1200",
                   }}
                 />}
-              </div>
-              <p className="text-sm text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
-              <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
-                <div className="w-full md:w-2/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
-                  <Image src="/blood.png" alt="Math Teacher" width={14} height={14} className="w-4 h-4"/>
-                  <span>A+</span>
-                </div>
-                 <div className="w-full md:w-2/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
-                  <Image src="/date.png" alt="" width={14} height={14} className="w-4 h-4"/>
-                  <span>March 30, 2025</span>
-                </div>
-                 <div className="w-full md:w-2/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
-                  <Image src="/mail.png" alt="" width={14} height={14} className="w-4 h-4"/>
-                  <span>ai.trinh@example.com</span>
-                </div>
-                 <div className="w-full md:w-2/3 lg:w-full 2xl:w-1/3 flex items-center gap-2">
-                  <Image src="/phone.png" alt="" width={14} height={14} className="w-4 h-4"/>
-                  <span>+123456789</span>
-                </div>
               </div>
             </div>
           </div>

@@ -1,8 +1,6 @@
 import Announcements from "@/components/Announcements"
 import BigCalendar from "@/components/BigCalendar"
-import FormModal from "@/components/FormModal"
 import Performance from "@/components/Performance"
-import { role } from "@/lib/data"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -20,17 +18,17 @@ const SingleTeacherPage = () => {
             </div>  
             <div className="w-2/3 flex flex-col justify-between gap-4">
                <div className="flex items-center gap-4">
-                <h1 className="text-xl font-semibold">Ai Trinh</h1>
+                <h1 className="text-xl font-semibold">Leonard Snyder</h1>
                 {role === "admin" && <FormModal
                   table="teacher"
                   type="update"
                   data={{
                     id: 1,
-                    username: "AiTrinh",
-                    email: "aitrinh@gmail.com",
+                    username: "deanguerrero",
+                    email: "deanguerrero@gmail.com",
                     password: "password",
-                    firstName: "Ai",
-                    lastName: "Trinh",
+                    firstName: "Dean",
+                    lastName: "Guerrero",
                     phone: "+1 234 567 89",
                     address: "1234 Main St, Anytown, USA",
                     bloodType: "A+",
